@@ -28,18 +28,34 @@ body {
   padding: 35px;
   text-align: center;
 }
-.login-form .input-field {
+.login-form .text-field {
+  position: relative;
   padding: 12px 5px;
 }
-.login-form .input-field input {
-  font-size: 16px;
-  width: 100%;
-  padding: 10px 1px;
-  border: 1px solid #424242;
-  border-radius: 4px;
-  transition: all .6s;
+.login-form .text-field label {
+  display: inline-block;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: white;
+  padding: 1px 5px;
+  font-size: 12px;
+  transform: translateY(-50%);
+  color: #6a5af9;
 }
-.login-form .input-field input:focus {
+.login-form .text-field input {
+  padding: 15px;
+  display: block;
+  width: 100%;
+  color: #999;
+  font-size: 14px;
+  border: 1px solid #6a5af9;
+  border-radius: 4px;
+}
+.login-form .text-field input:focus {
   border-color: rgb(27, 26, 26);
   transition: all .5s;
 }
