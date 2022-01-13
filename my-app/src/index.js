@@ -4,6 +4,24 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const Courses = [
+  {
+  name : 'HTML, CSS'
+  },
+  {
+  name : 'Responsive web design'
+  },
+  {
+  name : 'ReactJS'
+  }
+  ]
+  const ul = 
+  <ul>
+  {
+  Courses.map(course => 
+       <li>{course.name}</li>)
+  }
+   </ul>
 ReactDOM.render(
   <React.StrictMode>
     <App />
