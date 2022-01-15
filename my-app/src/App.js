@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function PostItem() {
+function App() {
   return (
        <div className="post-item">
          <img src ="https://cdn.fullstack.edu.vn/f8-production/blog_posts/1637/61b175b3debf2.jpg" alt="" />
