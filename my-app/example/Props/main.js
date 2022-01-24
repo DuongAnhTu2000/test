@@ -166,3 +166,15 @@ function App() {
 }
 ReactDOM.render(<App />, document.getElementById('root'))
 
+function App() {
+  let firstAccess = null
+  return (
+       <div id="wrapper">
+         <Button title="Click me!" 
+         href="https://fullstack.edu.vn/learning/reactjs?id=2739"
+          onClick={() => console.log(Math.random())}
+         />
+        </div>
+
+  )
+}
